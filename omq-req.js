@@ -5,7 +5,7 @@ const filename = "helloworld.txt";
 // Create request endpoint
 const requester = zmq.socket("req");
 
-// Hnalde replies from the responder
+// Handle replies from the responder
 requester.on("message", (data) => {
   const response = JSON.parse(data);
   console.log("Recevied response: ", response);
