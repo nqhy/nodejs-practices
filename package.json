@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Julien Bisconti <julienbi@unity3d.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "zeromq": "5"
+  }
 }
